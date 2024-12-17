@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('about_me_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+#main_heading_container{
+    text-align: center;
+}
+
+#main_heading{
+    display: inline;
+    color:white;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    letter-spacing:4px;
+    position:relative;
+    top: 40px;
+}
+
+.Personal_info{
+    color:white;
+    padding: 10px 80px 20px ;
+    letter-spacing: 1px;
+    font-size:larger;
+    position:relative;
+    top: 40px;
+}
+
+#insta {
+    position: absolute;
+    top: 35px;
+    left: 85%;
+    transform-origin: center; 
+    width: 50px;
+    height: auto;
+    transition: transform 0.4s ease; 
+}
+
+#insta:hover {
+    transform: scale(1.25); 
+}
+
